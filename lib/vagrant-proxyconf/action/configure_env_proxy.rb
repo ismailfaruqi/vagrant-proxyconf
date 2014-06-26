@@ -94,6 +94,7 @@ module VagrantPlugins
             https_proxy=#{config.https || ''}
             ftp_proxy=#{config.ftp || ''}
             no_proxy=#{config.no_proxy || ''}
+            use_proxy=1
           CONFIG
         end
       end
